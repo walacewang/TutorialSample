@@ -1,0 +1,5 @@
+
+rootProject.name = 'SpringRestApiDocs'
+
+include ':SpringRestApi'
+project(':SpringRestApi').projectDir = new File(settingsDir, '../SpringRestApi')

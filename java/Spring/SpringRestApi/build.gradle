@@ -1,0 +1,19 @@
+apply plugin: 'war'
+apply plugin: 'eclipse'
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+	compile 'org.springframework:spring-webmvc:4.3.8.RELEASE'
+	compile 'javax.servlet:javax.servlet-api:3.1.0'
+	compile 'javax.servlet:javax.servlet-api:3.1.0'
+	compile group: 'com.fasterxml.jackson.core', name: 'jackson-core', version: '2.9.2'
+	compile group: 'com.fasterxml.jackson.core', name: 'jackson-annotations', version: '2.9.2'
+	compile group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.9.2'
+    compile 'org.slf4j:slf4j-api:1.7.25'
+    compile 'ch.qos.logback:logback-classic:1.2.3'
+
+}
+
