@@ -8,11 +8,12 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 public class DemoApplication {
 
 	static AnnotationConfigApplicationContext context;
+
 	public static void main(String[] args) {
 		SpringApplication.run(DemoApplication.class, args);
 		context = new AnnotationConfigApplicationContext();
-        context.refresh();
-        context.close();
+		context.refresh();
+		context.close();
 
 	}
 }
