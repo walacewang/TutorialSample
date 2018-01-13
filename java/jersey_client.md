@@ -1,7 +1,7 @@
 # gradle
 
-compile group: 'org.glassfish.jersey.core', name: 'jersey-client', version: '2.25'
-compile group: 'org.glassfish.jersey.media', name: 'jersey-media-json-jackson', version: '2.25'
+		compile group: 'org.glassfish.jersey.core', name: 'jersey-client', version: '2.25'
+		compile group: 'org.glassfish.jersey.media', name: 'jersey-media-json-jackson', version: '2.25'
 
 # java
 		ClientConfig config = new ClientConfig();
